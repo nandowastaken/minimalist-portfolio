@@ -1,0 +1,76 @@
+.buildTogether {
+    width: 70%;
+    
+    border: 0.1px solid rgb(255 255 255 / 0.2);
+    border-radius: 8px;
+    box-sizing: border-box;
+    
+    
+}
+
+.buildTogetherContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 1.5rem;
+}
+
+.buildTogetherTitle {
+    color: #FFF;    
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buildTogetherDescription {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.buildTogetherButton {
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 2.5rem;
+    width: 12rem;
+    cursor: pointer;
+
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.socialMedia {
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: 0.1px solid rgb(255 255 255 / 0.2);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.socialMediaButton {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 0.1px solid rgb(255 255 255 / 0.2);
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
