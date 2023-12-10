@@ -20,15 +20,21 @@ export default function BuildTogether() {
 
       <div className="socialMedia">
         <button className="socialMediaButton">
-          <img src={Instagram} alt="" />
+          <a href="https://www.instagram.com/nan.tsx" target="_blank">
+            <img src={Instagram} alt="" />
+          </a>
         </button>
 
         <button className="socialMediaButton">
-          <img src={Linkedin} alt="" />
+          <a href="https://www.linkedin.com/in/nandowastaken/" target="_blank">
+            <img src={Linkedin} alt="" />
+          </a>
         </button>
 
         <button className="socialMediaButton">
-          <img src={Github} alt="" />
+          <a href="https://github.com/nandowastaken" target="_blank">
+            <img src={Github} alt="" />
+          </a>
         </button>
       </div>
     </div>
